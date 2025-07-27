@@ -1,0 +1,73 @@
+:root{
+    --text-color: white;
+    --background-color: #314453;
+    --navbar-height: 80px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    height: var(--navbar-height);
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: var(--text-color);
+}
+.menu{
+    height: 830px;
+    width: 300px;
+    border-style: solid;
+    border-color: black;
+    background-color: lightgray;
+
+}
+.menu h1{
+    padding: 5px 0px 5px 25px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menuItem p{
+    padding: 5px 0px 5px 35px;
+    text-decoration: none;
+    color: black;
+}
+.menuItem :hover{
+    background-color: rgb(72, 72, 80);
+}
+.btn{
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #5384aa;
+    font-weight: bold;
+}
+#btnOption{
+    margin-left: 10px;
+}
+#content-area{
+    position: absolute;
+    left: 303px;
+    top: 80px;
+    border-style: solid;
+    height: 830px;
+    width: 1610px;
+    border-collapse: collapse;
+}
+.fuehrerschein{
+    height: 760px;
+    width: 1590px;
+    margin: 10px;
+}
